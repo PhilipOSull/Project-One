@@ -3,3 +3,28 @@
     padding: 0;
     border: none;
 }
+
+/* navigation */
+
+#nav-list li {
+    float: right;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#nav-list #logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#nav-list a {
+    text-decoration: none;
+}
+
+#navigation-right li {
+    margin-top: 30px;
+    margin-right: 20px;
+}
