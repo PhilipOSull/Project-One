@@ -84,13 +84,32 @@ a:hover {
 
 }
 
+/* about */
+
+#about {
+    background-color: #9E65CE;
+    
+}
+
+div.about-text {
+    height: 300px;
+    width: 100%;
+    
+}
+
 /* gallery images */
+
+#gallery {
+    background-color: #9E65CE;
+}
 
 
 div.gallery {
-    margin: 5px;
+    margin: 8px;
     float: left;
-    width: 180px;
+    width: 330px;
+    margin-left: 35px;
+    margin-top: 35px;
 }
 
 div.gallery:hover {
@@ -101,6 +120,9 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    
+    
 }
 
 div.desc {
