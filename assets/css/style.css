@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Lato:wght@300&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 body {
     font-family: 'Alegreya', serif;
 }
@@ -51,7 +55,7 @@ h3 {
     float: right;
     list-style-type: none;
     letter-spacing: 4px;
-    
+
     margin-right: 20px;
 }
 
@@ -114,22 +118,23 @@ a:active {
 
 /* about */
 
-#about{
-    margin-top:20px;
-  }
-  #about .about-box {
-    float:left;
-    width:30%;
-    padding:10px;
-    align-content: center;
-  }
+#about {
+    margin-top: 20px;
+}
 
-  #about .about-box img{
+#about .about-box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    align-content: center;
+}
+
+#about .about-box img {
     border-radius: 300px;
     width: 300px;
-    
-  }
-  
+
+}
+
 /* gallery */
 
 
@@ -230,22 +235,22 @@ div.desc {
 
 /* footer */
 
-footer{
-    padding:20px;
-    margin-top:20px;
+footer {
+    padding: 20px;
+    margin-top: 20px;
     color: #fff;
     background-color: rgb(85, 26, 139);
-    text-align:center;
-  }
+    text-align: center;
+}
 
-  footer li{
+footer li {
     list-style-type: none;
-    } 
+}
 
-  footer a{
+footer a {
     text-decoration: none;
- }
+}
 
-  #footer-text a{
+#footer-text a {
     color: #E6C4E5;
-  }
+}
