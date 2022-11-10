@@ -2,7 +2,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     font-family: 'Alegreya', serif;
@@ -118,25 +118,31 @@ a:active {
 
 /* about */
 
-#about {
-    margin-top: 20px;
-    
-    /*align-items: center;*/
-    
+#about h2{
+    border-bottom: 5px solid;
+    max-width: fit-content;
+    margin: 0 auto;
 }
 
-.about-container{
+#about {
+    margin-top: 20px;
+
+    /*align-items: center;*/
+
+}
+
+.about-container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
-#about .about-container{
+#about .about-container {
     display: flex;
     justify-content: space-between;
 }
 
-.about-box{
+.about-box {
     flex: 1;
 }
 
@@ -161,6 +167,12 @@ a:active {
 
 
 /* gallery */
+
+#gallery h2{
+    border-bottom: 5px solid;
+    max-width: fit-content;
+    margin: 0 auto;
+}
 
 
 div.gallery {
@@ -204,8 +216,15 @@ div.desc {
 
 /* form */
 
+#form-heading{
+    border-bottom: 5px solid;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
 
 #form {
+    background-image: url('/assets/images/cube\ dismantled.jpg');
     clear: left;
     background-size: cover;
     background-position: center;
@@ -214,7 +233,7 @@ div.desc {
 
 .signup-form {
     margin: 150px 10% 0 0;
-    background-image: url('/assets/images/cube-logo-vighnesh-dudani-ZQSs0YZUNfA-unsplash.jpg');
+    /*background-image: url('/assets/images/cube-logo-vighnesh-dudani-ZQSs0YZUNfA-unsplash.jpg');*/
     max-width: 400px;
     position: absolute;
     left: 35%;
@@ -235,10 +254,11 @@ div.desc {
     margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 2px;
+    font-weight: bold;
 }
 
 .text-input:hover {
-    border-color: #E6C4E5;
+    border-color: black;
 }
 
 .join-button {
@@ -247,9 +267,10 @@ div.desc {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #E6C4E5;
-    color: rgb(85, 26, 139);
+    background-color: rgb(85, 26, 139);
+    color: white;
     display: block;
+    border-radius: 30px;
 }
 
 .join-button:hover {
@@ -262,7 +283,7 @@ div.desc {
 
 footer {
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 0;
     color: #fff;
     background-color: rgb(85, 26, 139);
     text-align: center;
@@ -272,9 +293,9 @@ footer li {
     list-style-type: none;
 }
 
-#footer-text{
+#footer-text {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     /*gap: 0px;*/
 }
 
@@ -286,23 +307,24 @@ footer a {
     color: #E6C4E5;
 }
 
-footer i{
+footer i {
     margin-right: 5px;
 }
 
 /* media screens */
 
 @media (max-width: 768px) {
-#about .about-container {
-    flex-direction: column;
-    text-align: center;
-}
-#footer-text span { display: none; }
+    #about .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-text span {
+        display: none;
+    }
 }
 
 
 
 
 /*@media only screen and (max-width: 600px) */
-
-
