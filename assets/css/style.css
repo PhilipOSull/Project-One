@@ -55,8 +55,8 @@ h3 {
     float: right;
     list-style-type: none;
     letter-spacing: 4px;
-
     margin-right: 20px;
+    margin-top: 8px;
 }
 
 .navigation {
@@ -77,11 +77,11 @@ h3 {
 }
 
 .color-letter {
-    color: #E6C4E5;
+    color: #C976C4;
 }
 
 a:hover {
-    color: #E6C4E5;
+    color: #C976C4;
 }
 
 a:active {
