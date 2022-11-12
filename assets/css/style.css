@@ -6,6 +6,9 @@ html {
 
 body {
     font-family: 'Alegreya', serif;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -148,8 +151,8 @@ a:active {
 
 .about-box img {
     border-radius: 300px;
-    max-width: 250px;
-    margin-left: 55px;
+    max-width: 210px;
+    margin-left: 78px;
     margin-top: 15px;
 }
 
@@ -213,7 +216,8 @@ div.desc {
     margin: 150px 10% 0 0;
     /*background-image: url('/assets/images/cube-logo-vighnesh-dudani-ZQSs0YZUNfA-unsplash.jpg');*/
     max-width: 400px;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
     left: 35%;
     padding: 30px;
     color: black;
