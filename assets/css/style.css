@@ -8,16 +8,19 @@ body {
     font-family: 'Alegreya', serif;
 }
 
+
 /* headings */
 
-h1 {
-    color: rgb(85, 26, 139);
 
+h1,
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: rgb(85, 26, 139);
 }
 
 h2,
 h3 {
-    color: rgb(85, 26, 139);
     margin-left: 20px;
     text-align: center;
 
@@ -29,22 +32,21 @@ h2 {
 }
 
 
-
-
-h1,
-h2,
-h3 {
-    font-family: 'Lato', sans-serif;
-}
-
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+.section-heading{
+    border-bottom: 5px solid;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
 
 /* navigation */
+
 
 #logo,
 #nav-list {
@@ -57,10 +59,6 @@ h3 {
     letter-spacing: 4px;
     margin-right: 20px;
     margin-top: 8px;
-}
-
-.navigation {
-    color: rgb(85, 26, 139);
 }
 
 #logo {
@@ -116,13 +114,9 @@ a:active {
 
 }
 
+
 /* about */
 
-#about h2{
-    border-bottom: 5px solid;
-    max-width: fit-content;
-    margin: 0 auto;
-}
 
 #about {
     margin-top: 20px;
@@ -135,9 +129,6 @@ a:active {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
-}
-
-#about .about-container {
     display: flex;
     justify-content: space-between;
 }
@@ -155,23 +146,23 @@ a:active {
 }
 */
 
-#about .about-box img {
+.about-box img {
     border-radius: 300px;
     max-width: 250px;
     margin-left: 55px;
     margin-top: 15px;
-
-
 }
-
 
 
 /* gallery */
 
-#gallery h2{
-    border-bottom: 5px solid;
-    max-width: fit-content;
-    margin: 0 auto;
+
+#gallery-section {
+    height: 1051px;
+    width: 100%;
+    background-color: #E6C4E5;
+    position: relative;
+    margin-top: -6px;
 }
 
 
@@ -206,21 +197,8 @@ div.desc {
     color: rgb(85, 26, 139);
 }
 
-#gallery-section {
-    height: 1051px;
-    width: 100%;
-    background-color: #E6C4E5;
-    position: relative;
-    margin-top: -6px;
-}
 
 /* form */
-
-#form-heading{
-    border-bottom: 5px solid;
-    max-width: fit-content;
-    margin: 0 auto;
-}
 
 
 #form {
@@ -281,6 +259,7 @@ div.desc {
 
 /* footer */
 
+
 footer {
     padding: 20px;
     margin-top: 0;
@@ -311,7 +290,9 @@ footer i {
     margin-right: 5px;
 }
 
+
 /* media screens */
+
 
 @media (max-width: 768px) {
     #about .about-container {
