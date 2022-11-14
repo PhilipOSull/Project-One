@@ -64,13 +64,14 @@ h3 {
 
 #nav-list a {
     text-decoration: none;
+    color: rgb(85, 26, 139);
 }
 
 .color-letter {
     color: #C976C4;
 }
 
-a:hover {
+#nav-list a:hover {
     color: #C976C4;
 }
 
