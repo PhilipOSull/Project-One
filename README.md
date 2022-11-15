@@ -102,3 +102,33 @@ In the future, I would like to add more pages to the website. I would also like 
 ## Accessibility
 
 The WAVE WebAIM web accessibility evaluation tool was used so that the website was up to high accessibility standards. 
+
+## Performance
+
+### Desktop
+
+![Performance Test Desktop](docs/validation/Performance-Test-Desktop.png)
+
+- [PageSpeed Insights](https://pagespeed.web.dev/) was used to test the performance of the website for Desktop
+
+### Mobile
+
+![Performance Test Mobile](docs/validation/Performance-Test-Mobile.png)
+
+- [PageSpeed Insights](https://pagespeed.web.dev/) was used to test the performance of the website for Mobile.
+
+### Compatibility with browsers
+
+The website was tested on these broswers:
+
+- Google Chrome
+- Brave
+- Microsoft Edge
+- Mozilla Firefox
+
+### Performing tests on devices
+
+The project website was tested on numberous devices:
+
+- Acer TravelMate | P
+- Samsung S10+
