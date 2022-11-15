@@ -1,108 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CUBE
 
-Welcome PhilipOSull,
+The goal of my portfolio project is to spreading knowledge about NFTs. To teach anybody from novice or advanced beginner how to buy or sell an NFT. It's something I've been really interested in in recent years. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mockup image](docs/responsive-screenshot-new.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Live website](https://philiposull.github.io/Project-One/)
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+## Project Goals
 ---
 
-Happy coding!
+### Users Goals
+- Learn how to Buy & sell NFTs
+- Find a website that does this with easy to follow steps
+- Who are the top NFT projects
+
+### My Goals
+- Spread knowledge about NFTs to new users 
+- Catch the users attention with a nice color palette
+
+## Technologies
+---
+
+### Languages
+1. HTML
+2. CSS
+
+### Frameworks & Tools
+- Git
+- Github
+- Gitpod
+- Google Fonts
+- Opensea.io
+- Soft.io
+- Shutterstock
+- Istockphoto
+- Unsplash.com
+- W3schools
+- PhotoScissors.com
+- HTML-color-codes.info/colors-from-image/
+
+## Features
+
+##### Favicon
+
+![Favicon](docs/features/Favicon-Image.png)
+
+This Site features a favicon of the cube in the hero image reduced in size.
+
+##### Home
+
+![Home](docs/features/Home-Section.png)
+
+The home section features a responsive navigation bar and a hero image. The text to the left of the hero image informs the user straight away what the site is intended for. Once I put background-size: cover on the original photo so that on screen sizes such as 5000px the image would look perfect the background image was then too centered, there was too much empty space to the right hand side which didn't look good. With that in mind the original photo was edited using [PhotoScissors](https://photoscissors.com/) so that the cube would sit to the right of the screen and the text would be on the left. The original photo itself is then used on the smaller 480px screens so that the cube is more centered and can be seen on all screen sizes. 
+
+##### About
+
+![About](docs/features/About-Section.png)
+
+The About page features an eye catching logo in the center, with a complimenting color to the rest of the site, image was taken from [IstockPhoto](https://www.istockphoto.com/) To the left of the logo is Our Aim, letting the user know what we aim to do. To the right of the logo it informs the user what they will learn from signing up to the website. The About section uses flex, this made it a very easy and smooth experience when reducing the screen size for smaller devices, it looks just as good on all screens. At the very bottom there is an SVG wave, sticking with the same color palette as the website and making a nice flow into the Gallery section.
+
+##### Gallery
+
+![Gallery](docs/features/Gallery-Section.png)
+
+The Gallery section uses the same color as the botoom of the SVG wave, using [HTML-color-codes](https://html-color-codes.info/colors-from-image/) to get the exact color from the SVG image, so they flow nicely into eachother. The Gallery consists of some of the top NFT projects to date. These are the most popular amongst the NFT community and some of the most expensive to aquire. Like the About section the Gallery section also uses flex, it reduces the images very smoothly on smaller screens and looks just as pleasing to the eye.
+
+##### Sign-up Form
+
+![Sign-up](docs/features/Sign-up-Section.png)
+
+The Sign-up Form section has a dismanteled cube background image which I really liked the look of and the colors compliment the sites color palette, the image was taken from [ShutterShock](https://www.shutterstock.com/). The form was used from the challenge 1 & 2 I did for the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project, I removed code I didn't want to use for mine and altered code to better suit my site.
+
+##### Footer
+
+![Footer](docs/features/Footer-Section.png)
+
+The Footer section has the same color as the main headings on the page aswell as the sign-up button on the form, so that they all compliment eachother very well. The footer has copyright info that protects business copyright. It also has social media links and icons with links, as the screen size reduces for smaller devices only the icons are shown so its important they also bring the user to the social media site when clicked.
+
+### Features to Implement in the Future
+In the future, I would like to add more pages to the website. I would also like to add the 'smooth-scrolling' feature and make the Gallery a slideshow feature which I think would add a little extra to the website. 
+
+## Testing
+---
+## HTML Validation
