@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Lato:wght@300;400;700&display=swap');
 
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 /* To keep my content from spreading too wide on very large screens I will give the body a max-width between 1800px(112.5rem)
- and 2500px(156.25rem) and center it on the document using the margin-left/right auto. */
+ and 2500px(156.25rem) and center it on the document using margin-left: auto, margin-right: auto. */
 
 body {
     font-family: 'Alegreya', serif;
@@ -20,12 +26,6 @@ h2,
 h3 {
     font-family: 'Lato', sans-serif;
     color: rgb(85, 26, 139);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
 }
 
 .section-heading {
@@ -122,12 +122,10 @@ a:active {
 #about {
     margin-top: 1.25rem;
 
-    /*align-items: center;*/
-
 }
 
-/* I used flex for the About and Gallery section, I found two codepen.io websites that use flex as reference to figure out 
-how it works and eventually get it working right with my sections. */
+/* I used flex box for the About and Gallery section, I found two codepen.io websites that use flex box, so I used them as reference to figure out 
+how it works and eventually got it working with my sections. */
 
 .about-container {
     max-width: 68.75rem;
@@ -297,7 +295,9 @@ footer li {
 #footer-text {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /*gap: 0px;*/
+    margin: 0.9375rem auto;
+    max-width: 700px;
+    
 }
 
 footer a {
@@ -392,7 +392,7 @@ footer p {
         margin-top: 9.375rem;
     }
 
-    /* I used a second image that has the cube more centered, so on smaller devices it will still be in view */
+    /* I used a second image where the cube is more centered, so on smaller devices it will still be in view */
 
     #hero-image {
         background-image: url('../images/cube-hero-image.jpg');
