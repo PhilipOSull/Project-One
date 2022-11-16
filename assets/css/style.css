@@ -12,7 +12,7 @@
 
 body {
     font-family: 'Alegreya', serif;
-    max-width: 125rem;
+    max-width: 156.25rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -316,6 +316,35 @@ footer p {
 }
 
 
+/* 404 page */
+
+
+.error-container {
+    position: relative;
+}
+
+#error-page {
+    background-image: url(../images/cube-404-error-new.png);
+    height: 100rem;
+    width: 100%;
+}
+
+.error-page-text {
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+
+.error-page-text h1 {
+
+    font-size: 8rem;
+}
+
+.error-page-text p {
+    font-size: 2rem;
+}
+
+
 /* media screens */
 
 
@@ -388,12 +417,14 @@ footer p {
         width: 95%;
         font-size: 1.125rem;
         padding-left: 0rem;
-        margin-top: 13.375rem;;
+        margin-top: 13.375rem;
+        ;
     }
 
-    #hero-image h2, p{
+    #hero-image h2,
+    p {
         background: rgba(255, 255, 255, 0.7);
-    max-width: 95%;
+        max-width: 95%;
     }
 
     /* I used a second image where the cube is more centered, so on smaller devices it will still be in view */
