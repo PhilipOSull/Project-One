@@ -120,9 +120,9 @@ The WAVE WebAIM web accessibility evaluation tool was used so that the website w
 |-------------|------------|---------------------|-------------------|
 | Navigation | Press each Navigation link | Each Navigation link went to the correct place | PASS |
 | Sign-up Form | Leave first name or last name blank | Form says "Please fill in this field" | PASS |
-| Sign-up Form | Leave out '@' when putting in an emal address | Form says "Please inlcude an '@' in the email address" | PASS |
+| Sign-up Form | Leave out '@' when putting in an email address | Form says "Please inlcude an '@' in the email address" | PASS |
 | Sign-up Form | Fill in all details and press 'Sign-up' | Sends data to formdump website when submitted and shows all the key value pairs as expected | PASS |
-| Footer Links | Click each social media link | Each social media site should open in new tab | PASS |
+| Footer Links | Click each social media link | Each social media site should open up in a new tab | PASS |
 
 ## Performance
 ---
