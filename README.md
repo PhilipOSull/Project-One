@@ -102,7 +102,17 @@ In the future, I would like to add more pages to the website. I would also like 
 
 ## Accessibility
 
-The WAVE WebAIM web accessibility evaluation tool was used so that the website was up to high accessibility standards. 
+The WAVE WebAIM web accessibility evaluation tool was used so that the website was up to high accessibility standards. No errors were detected.
+
+## Functionality
+
+| **Feature** | **Action** | **Expected Outcome** | **Actual Outcome** |
+|-------------|------------|---------------------|-------------------|
+| Navigation | Press each Navigation link | Each Navigation link went to the correct place | PASS |
+| Sign-up Form | Leave first name or last name blank | Form says "Please fill in this field" | PASS |
+| Sign-up Form | Leave out '@' when putting in an emal address | Form says "Please inlcude an '@' in the email address" | PASS |
+| Sign-up Form | Fill in all details and press 'Sign-up' | Sends data to formdump website when submitted and shows all the key value pairs as expected | PASS |
+| Footer Links | Click each social media link | Each social media site should open in new tab | PASS |
 
 ## Performance
 
@@ -133,6 +143,12 @@ The project website was tested on numerous devices:
 
 - Acer TravelMate | P
 - Samsung S10+
+
+### Performing tests on different screen-sizes
+
+The project website was tested on numerous screen-sizes:
+
+- From 280px to 5000px
 
 ## Bugs
 
