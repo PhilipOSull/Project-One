@@ -86,7 +86,7 @@ h3.section-heading {
 #hero-image {
     height: 31.25rem;
     width: 100%;
-    background-image: url('../images/cube-hero.png');
+    background-image: url('../images/cube-hero-image.png');
     /* Image taken from unsplash.com */
     background-repeat: no-repeat;
     background-position: left;
@@ -465,7 +465,7 @@ footer p {
     /* I used a second image where the cube is more centered, so on smaller devices it will still be in view */
 
     #hero-image {
-        background-image: url('../images/cube-hero-image.jpg');
+        background-image: url('../images/cube-hero-small-screen.jpg');
         height: 25rem;
     }
 

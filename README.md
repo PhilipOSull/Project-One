@@ -168,11 +168,32 @@ The project website was tested on numerous screen-sizes:
 | The cube on the hero image goes off screen on smaller screens | Add a second image where the cube is centered for smaller screens |  
 | About section logo moves to the right on smaller screens | Remove margin left/right and use `text-align: center`
 | Gallery section wouldn't re-size properly on smaller screens | Used the flex property for a smoother experience
-| 
-
+ 
 ## Deployment
 
-The site is hosted using GitHub pages, deployed from the master branch. Every time there is a new commit to the master branch the deployed site will update automatically. The landing page must be named `index.html` in order for the site to deploy correctly on GitHub pages.
+The website development was created in the "main" branch. This branch was deployed using GitHub Pages.
+
+1.This site was deployed by completing the following steps:
+2.Open GitHub.
+3.Click on the project to be deployed.
+4.Navigate to the "Settings".
+5.Navigate down to the "GitHub Pages".
+6.Click on "Check it out here!".
+7.Select the "main" branch and select "Save".
+8.The link to the live website was ready on the top.
+
+## Cloning
+
+Clone this project following the steps:
+
+1.Open GitHub.
+2.Click on the project to be cloned.
+3.You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
+4.Once you click the button the fork will be in your repository.
+5.Open a new terminal.
+6.Change the current working directory to the location that you want the cloned directory.
+7.Type 'git clone' and paste the URL copied in step 3.
+8.Press 'Enter' and the project is cloned.
 
 You can also clone this repository directly into the editor to run locally, for example you would type `git clone https://github.com/USERNAME/REPOSITORY` into the terminal. You can then type `git remote rm origin` into the terminal to cut ties with this GitHub repository.
 
@@ -191,3 +212,11 @@ The Gallery NFTs were taken from [OpenSea](https://opensea.io/)
 The Sign-up Background image was taken from [ShutterShock](https://www.shutterstock.com/)
 
 The About section logo was taken from [IStockPhoto](https://www.istockphoto.com/)
+
+## Acknowledgements
+
+I would like to take the opportunity to thank:
+
+- My mentor Brian Macharia
+
+- A passed student Feddie Dermesonoglou
