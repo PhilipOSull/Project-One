@@ -389,7 +389,12 @@ footer p {
         width: 95%;
         font-size: 1.125rem;
         padding-left: 0rem;
-        margin-top: 9.375rem;
+        margin-top: 13.375rem;;
+    }
+
+    #hero-image h2, p{
+        background: rgba(255, 255, 255, 0.7);
+    max-width: 95%;
     }
 
     /* I used a second image where the cube is more centered, so on smaller devices it will still be in view */
