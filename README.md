@@ -48,28 +48,28 @@ The goal of my portfolio project is to spreading knowledge about NFTs. To teach 
 
 ### Favicon
 
-    - This Site features a favicon of the cube in the hero image reduced in size.
+- This Site features a favicon of the cube in the hero image reduced in size.
 
 ![Favicon](docs/features/Favicon-Image.png)
 
 
 ### Home
 
-    - The home section features a responsive navigation bar and a hero image. The text to the left of the hero image informs the user straight away what the site is intended for. Once I put background-size: cover on the original photo so that on screen sizes such as 5000px the image would look perfect the background image was then too centered, there was too much empty space to the right hand side which didn't look good. With that in mind the original photo was edited using [PhotoScissors](https://photoscissors.com/) so that the cube would sit to the right of the screen and the text would be on the left. The original photo itself is then used on the smaller 480px screens so that the cube is more centered and can be seen on all screen sizes. 
+- The home section features a responsive navigation bar and a hero image. The text to the left of the hero image informs the user straight away what the site is intended for. Once I put background-size: cover on the original photo so that on screen sizes such as 5000px the image would look perfect the background image was then too centered, there was too much empty space to the right hand side which didn't look good. With that in mind the original photo was edited using [PhotoScissors](https://photoscissors.com/) so that the cube would sit to the right of the screen and the text would be on the left. The original photo itself is then used on the smaller 480px screens so that the cube is more centered and can be seen on all screen sizes. 
 
 ![Home](docs/features/Home-Section.png)
 
 
 ### About Us
 
-    - The About page features an eye catching logo in the center, with a complimenting color to the rest of the site, image was taken from [IstockPhoto](https://www.istockphoto.com/) To the left of the logo is Our Aim, letting the user know what we aim to do. To the right of the logo it informs the user what they will learn from signing up to the website. The About section uses flex, this made it a very easy and smooth experience when reducing the screen size for smaller devices, it looks just as good on all screens. At the very bottom there is an SVG wave, sticking with the same color palette as the website and making a nice flow into the Gallery section.
+- The About page features an eye catching logo in the center, with a complimenting color to the rest of the site, image was taken from [IstockPhoto](https://www.istockphoto.com/) To the left of the logo is Our Aim, letting the user know what we aim to do. To the right of the logo it informs the user what they will learn from signing up to the website. The About section uses flex, this made it a very easy and smooth experience when reducing the screen size for smaller devices, it looks just as good on all screens. At the very bottom there is an SVG wave, sticking with the same color palette as the website and making a nice flow into the Gallery section.
 
 ![About](docs/features/About-Section.png)
 
 
 ### Gallery
 
-    - The Gallery section uses the same color as the botoom of the SVG wave, using [HTML-color-codes](https://html-color-codes.info/colors-from-image/) to get the exact color from the SVG image, so they flow nicely into eachother. The Gallery consists of some of the top NFT projects to date. These are the most popular amongst the NFT community and some of the most expensive to aquire. Like the About section the Gallery section also uses flex, it reduces the images very smoothly on smaller screens and looks just as pleasing to the eye.
+- The Gallery section uses the same color as the botoom of the SVG wave, using [HTML-color-codes](https://html-color-codes.info/colors-from-image/) to get the exact color from the SVG image, so they flow nicely into eachother. The Gallery consists of some of the top NFT projects to date. These are the most popular amongst the NFT community and some of the most expensive to aquire. Like the About section the Gallery section also uses flex, it reduces the images very smoothly on smaller screens and looks just as pleasing to the eye.
 
 ![Gallery](docs/features/Gallery-Section.png)
 
