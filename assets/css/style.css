@@ -79,12 +79,8 @@ h3.section-heading {
     color: #C976C4;
 }
 
-a:active {
-    color: #E6C4E5;
-}
 
 /* image */
-
 
 
 #hero-image {
@@ -268,11 +264,14 @@ label {
     color: white;
     display: block;
     border-radius: 1.875rem;
+    transform: scale(1);
 }
 
 .join-button:hover {
     background-color: #8FA6DC;
     color: black;
+    transform: scale(0.98);
+    cursor: pointer;
 }
 
 
@@ -401,7 +400,7 @@ footer p {
 
     .error-page-text {
         margin-top: 11%;
-        
+
     }
 
     .error-page-text p {
@@ -490,7 +489,7 @@ footer p {
     .error-page-text p {
         font-size: 1.5rem;
         background: rgba(255, 255, 255, 0.7);
-        
+
     }
 
     .error-page-text h1 {
