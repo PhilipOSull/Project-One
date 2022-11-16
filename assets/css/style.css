@@ -170,7 +170,6 @@ how it works and eventually got it working with my sections. */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    
 
 }
 
@@ -298,7 +297,7 @@ footer li {
     grid-template-columns: repeat(3, 1fr);
     margin: 0.9375rem auto;
     max-width: 700px;
-    
+
 }
 
 footer a {
