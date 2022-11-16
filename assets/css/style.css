@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Lato:wght@300;400;700&family=Merriweather+Sans:wght@300&display=swap');
 
 
 * {
@@ -163,13 +163,14 @@ how it works and eventually got it working with my sections. */
 
 #gallery-section {
     max-width: 125rem;
-    margin: 0 auto;
+    margin: 1.85rem auto 0;
     padding: 0 1.875rem;
     display: flex;
     justify-content: space-evenly;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    
 
 }
 
@@ -201,7 +202,7 @@ how it works and eventually got it working with my sections. */
 h4.desc {
     padding: 0.9375rem;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Merriweather Sans';
     font-size: 1.25rem;
     color: rgb(85, 26, 139);
 }
