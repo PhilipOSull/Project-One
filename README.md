@@ -2,7 +2,7 @@
 
 The goal of my portfolio project is to spreading knowledge about NFTs. To teach anybody from novice or advanced beginner how to buy or sell an NFT. It's something I've been really interested in in recent years. 
 
-![Mockup image](docs/responsive-screenshot-new.png)
+![Mockup image](docs/validation/Responsive-Test.png)
 
 [Live website](https://philiposull.github.io/Project-One/)
 
@@ -173,29 +173,39 @@ The project website was tested on numerous screen-sizes:
 
 The website development was created in the "main" branch. This branch was deployed using GitHub Pages.
 
-1.This site was deployed by completing the following steps:
-2.Open GitHub.
-3.Click on the project to be deployed.
-4.Navigate to the "Settings".
-5.Navigate down to the "GitHub Pages".
-6.Click on "Check it out here!".
-7.Select the "main" branch and select "Save".
-8.The link to the live website was ready on the top.
+- This site was deployed by completing the following steps:
+
+1. Open GitHub.
+2. Click on the project to be deployed.
+3. Navigate to the "Settings".
+4. Navigate down to the "GitHub Pages".
+5. Click on "Check it out here!".
+6. Select the "main" branch and select "Save".
+7. The link to the live website was ready on the top.
 
 ## Cloning
 
-Clone this project following the steps:
+- Clone this project following the steps:
 
-1.Open GitHub.
-2.Click on the project to be cloned.
-3.You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
-4.Once you click the button the fork will be in your repository.
-5.Open a new terminal.
-6.Change the current working directory to the location that you want the cloned directory.
-7.Type 'git clone' and paste the URL copied in step 3.
-8.Press 'Enter' and the project is cloned.
+1. Open GitHub.
+2. Click on the project to be cloned.
+3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL.
+4. Open a new terminal.
+5. Change the current working directory to the location that you want the cloned directory.
+6. Type 'git clone' and paste the URL copied in step 3.
+7. Press 'Enter' and the project is cloned.
 
-You can also clone this repository directly into the editor to run locally, for example you would type `git clone https://github.com/USERNAME/REPOSITORY` into the terminal. You can then type `git remote rm origin` into the terminal to cut ties with this GitHub repository.
+## Forking
+
+1. Open GitHub.
+2. Click on the project to be forked.
+3. Click on Fork button in the upper right hand corner.
+4. Clone the fork of your repo, so you can edit the contents locally.
+5. Make edits to your local cloned copy of the repo on your computer.
+6. `git` `add`, `commit` and `push` those edits back to your fork on GitHub.
+7. Suggest the changes that you made, to be added to Project repo using a pull request.
+
+- General note: Any push to the main branch automatically updates the live site.
 
 ## Credits
 
