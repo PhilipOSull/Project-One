@@ -324,20 +324,26 @@ footer p {
 }
 
 #error-page {
-    background-image: url(../images/cube-404-error-new.png);
+    background-image: url(../images/cube-404-error-newer.png);
     height: 100rem;
     width: 100%;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .error-page-text {
     position: absolute;
-    margin-top: 15rem;
-    margin-left: 10rem;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .error-page-text h1 {
-
+    max-width: 2rem;
     font-size: 8rem;
+    line-height: 8rem;
+    margin-bottom: 1rem;
 }
 
 .error-page-text p {
@@ -381,6 +387,27 @@ footer p {
         max-width: 11.125rem;
     }
 
+    #error-page {
+        background-image: url(../images/cube-404-error-newestt.png);
+        height: 100rem;
+        width: 100%;
+    }
+
+    .error-page-text h1 {
+        max-width: 2rem;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .error-page-text {
+        margin-top: 11%;
+        
+    }
+
+    .error-page-text p {
+        background: rgba(255, 255, 255, 0.7);
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -407,6 +434,15 @@ footer p {
         max-width: 10.125rem;
     }
 
+    .error-page-text h1 {
+        max-width: 2rem;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .error-page-text p {
+        background: rgba(255, 255, 255, 0.7);
+    }
 
 }
 
@@ -449,5 +485,16 @@ footer p {
 
     .about-box img {
         max-width: 9.125rem;
+    }
+
+    .error-page-text p {
+        font-size: 1.5rem;
+        background: rgba(255, 255, 255, 0.7);
+        
+    }
+
+    .error-page-text h1 {
+        font-size: 5rem;
+        line-height: 5rem;
     }
 }
