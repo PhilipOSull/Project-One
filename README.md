@@ -1,6 +1,6 @@
 # CUBE
 
-The goal of my portfolio project is to spreading knowledge about NFTs. To teach anybody from novice or advanced beginner how to buy or sell an NFT. It's something I've been really interested in in recent years. 
+The goal of my portfolio project is to spread knowledge about NFTs. To teach anybody from novice or advanced beginner how to buy or sell an NFT. It's something I've been really interested in in recent years. 
 
 ![Mockup image](docs/validation/responsive-test.png)
 
@@ -118,7 +118,7 @@ In the future, I would like to add more pages to the website. I would also like 
 ### Accessibility
 ---
 
-The WAVE WebAIM web accessibility evaluation tool was used so that the website was up to high accessibility standards. No errors were detected.
+The WAVE WebAIM web accessibility evaluation tool was used so that the website was up to high accessibility standards. No errors were detected. It had 1 alert which said the "CUBE" logo and "Home" in the navigation bar had the same link.
 
 ### Functionality
 ---
@@ -129,7 +129,9 @@ The WAVE WebAIM web accessibility evaluation tool was used so that the website w
 | Sign-up Form | Leave first name or last name blank | Form says "Please fill in this field" | PASS |
 | Sign-up Form | Leave out '@' when putting in an email address | Form says "Please inlcude an '@' in the email address" | PASS |
 | Sign-up Form | Fill in all details and press 'Sign-up' | Sends data to formdump website when submitted and shows all the key value pairs as expected | PASS |
+| Sign-up Button | Move cursor over button | Gives a nice little effect | PASS | 
 | Footer Links | Click each social media link | Each social media site should open up in a new tab | PASS |
+
 
 ## Performance
 ---
@@ -157,7 +159,7 @@ The website was tested on these broswers:
 
 ### Performing tests on devices
 
-The project website was tested on numerous devices:
+The project website was tested on these devices:
 
 - Acer TravelMate | P
 - Samsung S10+
@@ -173,8 +175,12 @@ The project website was tested on numerous screen-sizes:
 | **Bug** | **Fix** |
 | ----------- | ----------- |
 | The cube on the hero image goes off screen on smaller screens | Add a second image where the cube is centered for smaller screens |  
-| About section logo moves to the right on smaller screens | Remove margin left/right and use `text-align: center`
-| Gallery section wouldn't re-size properly on smaller screens | Used the flex property for a smoother experience
+| About section logo moves to the right on smaller screens | Remove margin left/right and use `text-align: center` |
+| Gallery section wouldn't re-size properly on smaller screens | Used the flex property for a smoother experience |
+
+## Unsolved issues
+
+- I tried to include 'Smooth scrolling', but when I clicked any of the navigation links only sometimes it would go to the section perfectly,  other times it would go half way or not at all. This is something I will look into further for future projects.  
  
 ## Deployment
 
@@ -222,7 +228,7 @@ The content in the "About us" section was written by me.
 
 ### Media
 
-The hero image was taken from [Unsplash](https://unsplash.com/)
+The Hero image was taken from [Unsplash](https://unsplash.com/)
 
 The Gallery NFTs were taken from [OpenSea](https://opensea.io/)
 

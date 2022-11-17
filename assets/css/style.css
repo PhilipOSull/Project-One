@@ -323,7 +323,7 @@ footer p {
 }
 
 #error-page {
-    background-image: url(../images/cube-404-error-newer.png);
+    background-image: url(../images/cube-404-error-main.png);
     height: 100rem;
     width: 100%;
     background-position: inherit;
@@ -386,6 +386,8 @@ footer p {
         max-width: 11.125rem;
     }
 
+    /* 404 media screen max-width 943px */
+
     #error-page {
         background-image: url(../images/cube-404-error-943px.png);
         height: 100rem;
@@ -432,6 +434,8 @@ footer p {
     .about-box img {
         max-width: 10.125rem;
     }
+
+    /* 404 media screen max-width 768px */
 
     #error-page {
         background-image: url(../images/cube-404-error-768px.png);
@@ -489,6 +493,8 @@ footer p {
     .about-box img {
         max-width: 9.125rem;
     }
+
+    /* 404 media screen max-width 480px */
 
     #error-page {
         background-image: url(../images/cube-404-error-480px.png);
