@@ -494,6 +494,10 @@ footer p {
         max-width: 9.125rem;
     }
 
+    .signup-form {
+        max-width: 75%;
+    }
+
     /* 404 media screen max-width 480px */
 
     #error-page {
