@@ -2,7 +2,7 @@
 
 The goal of my portfolio project is to spread knowledge about NFTs. To teach anybody from novice or advanced beginner how to buy or sell an NFT. It's something I've been really interested in in recent years. 
 
-![Mockup image](docs/validation/responsive-test.png)
+![Mockup image](docs/validation/responsive-test-image.png)
 
 [Live website](https://philiposull.github.io/Project-One/)
 
@@ -230,11 +230,13 @@ The content in the "About us" section was written by me.
 
 The Hero image was taken from [Unsplash](https://unsplash.com/)
 
+The About section logo was taken from [IStockPhoto](https://www.istockphoto.com/)
+
 The Gallery NFTs were taken from [OpenSea](https://opensea.io/)
 
 The Sign-up Background image was taken from [ShutterShock](https://www.shutterstock.com/)
 
-The About section logo was taken from [IStockPhoto](https://www.istockphoto.com/)
+
 
 ## Acknowledgements
 
@@ -243,3 +245,5 @@ I would like to take the opportunity to thank:
 - My mentor Brian Macharia
 
 - A passed student Feddie Dermesonoglou
+
+- To all the lovely people from Code Institute and on Slack 
