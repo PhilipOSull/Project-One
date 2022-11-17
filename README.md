@@ -19,7 +19,7 @@ The goal of my portfolio project is to spread knowledge about NFTs. To teach any
 
 - Spread knowledge about NFTs to new users 
 - Catch the users attention with a nice UI & UX
-- 
+- Build a community of like-minded individuals
 
 ## Technologies
 
