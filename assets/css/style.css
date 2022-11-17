@@ -387,7 +387,7 @@ footer p {
     }
 
     #error-page {
-        background-image: url(../images/cube-404-error-newestt.png);
+        background-image: url(../images/cube-404-error-943px.png);
         height: 100rem;
         width: 100%;
     }
@@ -431,6 +431,10 @@ footer p {
 
     .about-box img {
         max-width: 10.125rem;
+    }
+
+    #error-page {
+        background-image: url(../images/cube-404-error-768px.png);
     }
 
     .error-page-text h1 {
@@ -484,6 +488,10 @@ footer p {
 
     .about-box img {
         max-width: 9.125rem;
+    }
+
+    #error-page {
+        background-image: url(../images/cube-404-error-480px.png);
     }
 
     .error-page-text p {
